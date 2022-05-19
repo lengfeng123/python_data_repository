@@ -7,6 +7,9 @@
 
 import random
 
+o = ("i")
+print(o)
+
 wait_time = random.randint(1, 60)
 print(wait_time)
 
@@ -37,7 +40,7 @@ if 'm' not in found:
 for i in found:
     print(i)
 
-for i in range(1,5):
+for i in range(1, 5):
     print(i)
 
 for i in range(5):
