@@ -56,3 +56,22 @@ print(found)
 n = found.pop(0)
 print(n)
 print(found)
+
+# 5月19日
+x = [1, 2, 3]
+y = [4, 5, 6]
+x.extend(y)
+print(x)
+
+x.insert(6, 7)
+print(x)
+
+v = x.copy()
+print(v)
+w = v[2:5:2]
+print(w)
+t = v[-3:-6:-2]
+print(t)
+
+
+
